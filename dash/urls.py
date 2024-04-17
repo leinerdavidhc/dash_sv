@@ -5,6 +5,6 @@ from .api import VehiculoViewSet,AnotacionViewSet,IncidenteViewSet
 router = DefaultRouter()
 router.register('api/vehiculos', VehiculoViewSet, 'vehiculos')
 router.register('api/anotacion', AnotacionViewSet, 'anotacion')
-router.register('api/incidentes', IncidenteViewSet, 'Incidentes')
+router.register('api/incidentes', IncidenteViewSet, 'incidentes')
 
 urlpatterns=router.urls
